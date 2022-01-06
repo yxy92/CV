@@ -1,31 +1,22 @@
 ---
 name: Xiangyu Yao
-position: "Graduate Research Assitant"
+position: Graduate Research Assitant
 aboutme: Mathematical Modeling, Data Analytics, System Biology
-address: "707 Appalachian Dr. Apt 10, Blacksburg, 24060"
+address: 707 Appalachian Dr. Apt 10, Blacksburg, 24060
 phone: +1 540 257 2206
-email: "jacky92@vt.edu"
+email: jacky92@vt.edu
 twitter: DiogoMCamacho
 github: diogocamacho
 linkedin: diogocamacho
 headcolor: 414141
-date: "`r format(Sys.time(), '%B %Y')`"
-output: 
-  vitae::awesomecv
+date: January 2022
+output: vitae::awesomecv
+nocite: '@'
+csl: D:/R-4.1.2/library/vitae/vitae.csl
+
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-library(vitae)
-library(tidyr)
-library(dplyr)
-library(readr)
-library(glue)
-library(tibble)
-library(lubridate)
-library(here)
-library(scales)
-```
+
 
 
 # Qualifications and research interests
